@@ -4,7 +4,7 @@ Register as new user
 
 This page is for new users to the unchain.app application who want to create a new account.
 
-To register as a new user please visit the <https://unchain.app/Register> page. You can also use the `Create Account` button on the home page <https://unchain.app>.
+To register as a new user please visit the <https://unchain.app/Register> page. You can also use the 'Create Account' button on the home page <https://unchain.app>.
 
 .. note::
     Please note that a new account can only be registered using the (desktop) web application on a PC or laptop. The mobile app does **not** have a new account registration option.
@@ -22,7 +22,7 @@ Password
 Enter the password you wish to use for the account, twice. We have no password strength requirements, although we recommend you choose an unique and strong password to prevent unauthorized access. If you choose an anonymous alias as Username, any compromised details will not be relatable to your person. 
 
 .. note::
-  There is no password recovery procedure, since we don't register any personal details like an email address. Please make a (mental) note of this.
+  There is no password recovery procedure, since we don't register any personal details (like an email address); Please make a (mental) note of this.
   
 ======================
 Terms & Conditions
