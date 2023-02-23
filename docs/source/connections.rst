@@ -79,6 +79,6 @@ Re-balancing
 
 Re-balancing is activated for a number of different Exchanges and Blockchains. Most of the times this is done due to the fact that the offered API does not offer a complete set of transactions.
 
-The re-balance functionality will calculate any differences per Asset between Exchange/Wallet and unchain.app totals and create transactions with delta value per asset to counter the difference. The transaction type is set to 'rebalance' to differentiate these transactions. Note that these transactions can be deleted, since they don't represent an actual transaction on the Exchange or Blockchain.
+The re-balance functionality will calculate any differences per Asset between Exchange/Wallet and unchain.app totals and create transactions with delta value per asset to counter the difference. The transaction type is set to 're-balance' to differentiate these transactions. Note that these transactions can be deleted, since they don't represent an actual transaction on the Exchange or Blockchain.
 
 The re-balance function is activated automatically and is executed after a Exchange or Wallet synchronization. 

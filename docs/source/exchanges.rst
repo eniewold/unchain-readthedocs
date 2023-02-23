@@ -39,7 +39,7 @@ On unchain.app Exchange Connection dialog; make sure the keys are copied correct
 Interface Comments
 ------------------
 
-* The Binance API does not allow a large number of requests per minute; synchronization will take longer when all trading pairs are synchrozed. 
+* The Binance API does not allow a large number of requests per minute; synchronization will take longer when all trading pairs are synchronized. 
 * Our synchronization component detects if no changes are available and will finish quickly.
 * :doc:`rebalance` is active and executed at the end of the synchronization cycle to ensure correct asset balances.
 

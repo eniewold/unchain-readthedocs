@@ -17,4 +17,4 @@ You can message our support team using the in-app Message system. Simply go to t
 E-Mail
 ======================
 
-If you don't have access to the application, then you can contact us through email. Please inclused as much technical details as possible so we can resolve the issue as quickly as possible. Mail your question to <mailto:support@unchain.app>. 
+If you don't have access to the application, then you can contact us through email. Please include as much technical details as possible so we can resolve the issue as quickly as possible. Mail your question to <mailto:support@unchain.app>. 
