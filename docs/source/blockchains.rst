@@ -14,7 +14,7 @@ Ethereum
 Real-Time support
 ----------------------
 
-A connection to the Ethereum blockchain supports 'Real-time' transaction monitoring. Check the :ref:`real-time-processing` section for more details on this mechanism. Both ETH transactions and internal (Token and NFT) are monitored. 
+A connection to the Ethereum blockchain supports 'Real-time' transaction monitoring. Check the :doc:`realtime` section for more details on this mechanism. Both ETH transactions and internal (Token and NFT) are monitored. 
 
 ======================
 Bitcoin
@@ -32,7 +32,7 @@ Binance Smart Chain
 Real-Time support
 ----------------------
 
-A connection to the Ethereum blockchain supports 'Real-time' transaction monitoring. Check the :ref:`real-time-processing` section for more details on this mechanism. Only changes in native tokens (BNB) are monitored.  
+A connection to the Ethereum blockchain supports 'Real-time' transaction monitoring. Check the :doc:`realtime` section for more details on this mechanism. Only changes in native tokens (BNB) are monitored.  
 
 
 **under construction**
