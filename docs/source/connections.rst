@@ -82,3 +82,11 @@ Re-balancing is activated for a number of different Exchanges and Blockchains. M
 The re-balance functionality will calculate any differences per Asset between Exchange/Wallet and unchain.app totals and create transactions with delta value per asset to counter the difference. The transaction type is set to 're-balance' to differentiate these transactions. Note that these transactions can be deleted, since they don't represent an actual transaction on the Exchange or Blockchain.
 
 The re-balance function is activated automatically and is executed after a Exchange or Wallet synchronization. 
+
+======================
+Jump Queue
+======================
+
+Synchronization of a connection is scheduled automatically. The frequency of synchronization is based on the active subscription. But all users can use the 'Jump Queue' function to synchronize the selected connection as soon as possible.
+
+When this function is initiated by a user, the maximum number of times this function can be used is decreased. Check :doc:`subscriptions` for more details. There are system events that also trigger this function, those will note be counted towards the maximum usage. 
