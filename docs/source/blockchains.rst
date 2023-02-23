@@ -16,3 +16,9 @@ Bitcoin
 
 **under construction**
 
+======================
+Binance Smart Chain
+======================
+
+**under construction**
+
