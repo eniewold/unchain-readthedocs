@@ -34,7 +34,16 @@ This documentation can be used to guide you through the functionality of the app
    assets
    transactions
    trades
+   connections
    notifications
    messages
    profile
    uploads
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Functionality
+   :name: functionality
+
+   realtime
+   rebalance
