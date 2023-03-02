@@ -16,7 +16,22 @@ Username / Nickname
 Please use a username (nickname) for the new account. Although you can use your email address, we recommend you use an login alias for anonymous usage of our system. The entered username must be unique on our system, you will be warned if there is a conflict. 
 
 ======================
-Password
+Register with Ethereum
+======================
+
+Use the 'Register With Ethereum' button to use your personal wallet provider as proof of identity. You will register using the selected account (address) from your favorite Ethereum wallet. 
+
+The following Chrome extension wallets are supported:
+* Metamask
+* Binance Wallet
+* Coinbase Wallet
+* Exodus Wallet1
+
+.. note::
+   You only need to enter a unique username when registering with your Ethereum wallet. No password is needed!
+
+======================
+Register with Password
 ======================
 
 Enter the password you wish to use for the account, twice. We have no password strength requirements, although we recommend you choose an unique and strong password to prevent unauthorized access. If you choose an anonymous alias as username, any compromised details will not be relatable to your person. 

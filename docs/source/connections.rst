@@ -2,7 +2,7 @@
 Connections
 ######################
 
-These pages explain how to set up a connection to a wallet or exchange. Connections are used by the system to synchronize transactions. 
+These pages explain how to set up a connection to a wallet or exchange. Connection properties are used by the system to connect to schedule synchronization and connect to wallets and exchanges.
 
 ======================
 Manage Connections
