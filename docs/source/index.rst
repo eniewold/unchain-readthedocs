@@ -25,7 +25,7 @@ This documentation can be used to guide you through the functionality of the app
    support
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Pages
    :name: pages
 
@@ -41,9 +41,10 @@ This documentation can be used to guide you through the functionality of the app
    uploads
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Functionality
    :name: functionality
 
    realtime
    rebalance
+   backintime
