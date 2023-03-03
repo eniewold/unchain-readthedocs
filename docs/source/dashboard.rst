@@ -40,6 +40,7 @@ Asset Value
 This tab shows a donut chart with slices by asset value. Asset values smaller than 1% are combined into a single donut chart slice. Hover mouse over the chart to reveal additional details. 
 
 Next to the chart the following asset (fiat) values are shown:
+
 * Current total value
 * Asset value change since beginning of week
 * Asset value change since beginning of month

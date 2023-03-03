@@ -24,6 +24,7 @@ Sign in With Ethereum
 Use the 'Sign in With Ethereum' button to use your personal wallet provider as proof of identity. You will sign in using the selected account (address) from your favorite Ethereum wallet. 
 
 The following Chrome extension wallets are supported:
+
 * Metamask
 * Binance Wallet
 * Coinbase Wallet
