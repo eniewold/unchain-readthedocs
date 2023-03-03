@@ -27,7 +27,7 @@ The following Chrome extension wallets are supported:
 * Metamask
 * Binance Wallet
 * Coinbase Wallet
-* Exodus Wallet1
+* Exodus Wallet
 
 .. note::
    When using Sign in with Ethereum; you don't need to enter your username.
