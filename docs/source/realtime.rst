@@ -6,6 +6,6 @@ Some blockchains are monitored by our components for changes when blocks are min
 
 The following blockchains are currently supported by real-time processing:
 
-* :ref:`blockchains:ethereum` (native and tokens)
-* :ref:`blockchains:bitcoin` (native)
-* :ref:`blockchains:binance-smart-chain` (native currency only)
+* :any:`blockchains:ethereum` (native and tokens)
+* :any:`blockchains:bitcoin` (native)
+* :any:`blockchains:binance-smart-chain` (native currency only)

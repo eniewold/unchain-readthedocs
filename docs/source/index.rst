@@ -45,7 +45,7 @@ This documentation can be used to guide you through the functionality of the app
    :caption: Functionality
    :name: functionality
 
-   realtime
-   rebalance
    backintime
    selections
+   realtime
+   rebalance
