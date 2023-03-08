@@ -48,3 +48,4 @@ This documentation can be used to guide you through the functionality of the app
    realtime
    rebalance
    backintime
+   selections
