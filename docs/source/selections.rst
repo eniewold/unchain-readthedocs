@@ -6,6 +6,8 @@ The 'Selections' function is available through the filter icon in the lower righ
 
 In this slide-out window you can activate the Selections functionality by toggling check-box 'Use Selections'. This will also enable additional interface elements below.
 
+.. image:: images/selections_showinterface.gif
+
 All connections are shown and can be selected separately by using the check-box next to the connection name. When selected; all data shown is filtered to represent the selection. 
 
 With the 'Select All' and 'Invert' buttons you can quickly filter the data to the desired set of connections. 
