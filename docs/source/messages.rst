@@ -13,7 +13,7 @@ Most :doc:`support` questions are also handled through this page. You can send a
 View Conversations
 ======================
 
-All current and previous conversations are displayed under the 'Conversations' section. You see the recipient and title of each conversation listed and click on it to display the content. By using the small array, you can archive (or unarchive) a conversation. 
+All current and previous conversations are displayed under the 'Conversations' section. You see the recipient and subject of each conversation listed and click on it to display the content. By using the small array, you can archive (or unarchive) a conversation. 
 
 You can type a reply next to the 'Reply' field, analog to most modern direct messaging applications. Use the 'Send' button or press Enter key to transmit the response. 
 
