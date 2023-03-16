@@ -21,12 +21,14 @@ Register with Ethereum
 
 Use the 'Register With Ethereum' button to use your personal wallet provider as proof of identity. You will register using the selected account (address) from your favorite Ethereum wallet. 
 
-The following Chrome extension wallets are supported:
+The following wallets are supported:
 
 * Metamask Wallet
 * Binance Wallet
 * Coinbase Wallet
 * Exodus Wallet
+* Brave Browser Wallet
+* Opera Browser Wallet
 
 .. note::
    You only need to enter a unique username when registering with your Ethereum wallet. No password is needed!
