@@ -9,7 +9,7 @@ In this slide-out window you can activate the Selections functionality by toggli
 .. only:: html
 
     .. image:: images/selections.gif
-        :width: 400
+        :width: 300
 
 All connections are shown and can be selected separately by using the check-box next to the connection name. When selected; all data shown is filtered to represent the selection. 
 
