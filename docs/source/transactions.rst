@@ -13,6 +13,8 @@ Calendar Heat-map
 
 The top part of the page contains a calendar view of a complete year (the year as selected). Each cell represents a day and is colored based on the number of Transactions on that day in contrast to other days of the year. Relative high amounts of Transactions are colored from yellow to red. Days without Transactions are white.
 
+.. image:: images/transactions_heatmap.png
+
 You can click on any day of the calendar to move the table view to that particular day. The table page and scroll position are changed, this might not be 100% accurate. 
 
 ======================
@@ -49,6 +51,8 @@ Filters
 
 The displayed transactions in the table can be filtered using the following controls, displayed above the table:
 
+.. image:: images/transactions_filters.png
+
 * **Filter** - Free text to search for.
 * **Year** - Only show transactions with timestamp in selected year.
 * **Currency** - Only show transactions with selected currency asset.
@@ -79,8 +83,8 @@ When a row in the transactions table is clicked, the 'Transaction details' dialo
 
 * **Connection** - Exchange or Wallet connection this transaction belongs to.
 * **Timestamp** - The actual timestamp (in seconds) as communicated by exchange or blockchain, displayed in your local timezone. 
-* * **Account** - If applicable; account name as used by a Exchange. *deprecated*
-* * **Type** - Type of transaction as determined by our system. See below for more details.
+* **Account** - If applicable; account name as used by a Exchange. *deprecated*
+* **Type** - Type of transaction as determined by our system. See below for more details.
 * **Address From** - (if available) A wallet address the transaction was received from.
 * **Address To** - (if available) A wallet address the amount was transmitted to.
 * **Description** - Text as received during synchronization.
