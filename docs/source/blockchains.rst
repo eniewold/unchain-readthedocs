@@ -31,6 +31,7 @@ Blockchains as listed below are supported. As much transaction details as (curre
 
 Please refer to the sections below for notes on synchronization limitations per blockchain.
 
+.. _blockchains_ethereum:
 ======================
 Ethereum
 ======================
@@ -41,6 +42,7 @@ You can also use the 'Ledger Nano USB' button to connect you Ledger hardware wal
 * Native (ETH) and ERC20 tokens are supported
 * When a (new or unsalable) token does not appear; please contact :doc:`support` with the expected token details.
 
+.. _blockchains_bitcoin:
 ======================
 Bitcoin
 ======================
@@ -48,6 +50,7 @@ Bitcoin
 * :doc:`realtime` transaction detection supported
 * Only native currency supported (BTC)
 
+.. _blockchains_binance:
 ======================
 Binance Smart Chain
 ======================
