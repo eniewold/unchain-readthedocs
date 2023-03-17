@@ -56,6 +56,15 @@ The following properties are available for an Exchange Connection:
 .. note::
    The address format is checked for a number of blockchains, but you should always make sure you use the correct address to avoid confusing synchronization results.
 
+.. _connections_manual:
+========================
+Manual Ledger Connection
+========================
+
+A manual ledger connection allows you to manually add new transactions (effectively a ledger. NB. not related to the usb hardware key). Useful for transactions that are moved out of sight, like staking. 
+
+For manual transactions and mirrored transactions, you will need to have at least one manual ledger connection added. 
+
 ======================
 Status Model
 ======================
