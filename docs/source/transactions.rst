@@ -73,8 +73,31 @@ The displayed transactions can be exported to a number of different format using
 Transactions Types
 ======================
 
-**work in progress**
+There are a number of different transaction types, usage is documented below:
 
+* **deposit** - Received amount into wallet or exchange.
+* **withdraw** - Transmitted amount out of wallet or exchange.
+* **sell** - Traded (or swapped) amount from given currency.
+* **buy** - Traded (or swapped) amount into given currency.
+* **fees** - Cost of transaction or trade.
+* **interest** - Rewards, usually for staking or earning.
+* **cashback** - Reward, other than interest.
+* **reward** - Also used to denote rewards.
+* **rebalance** - Result of :ref:`rebalance` action.
+* **input** - On-ramp (usually fiat) deposit - only manually selectable.
+* **output** - Off-ramp (usually fiat) withdrawal - only manually selectable.
+* **unknown** - Type could not be recognized.
+* **airdrop** - Amount automatically received from 3rd party.
+
+You can alter the transaction type of any transaction using the :ref:`transactions_dialog`. Use the 'Change Type' drop-down button to alter the type. Only types with the same direction (incoming or outgoing) can be selected. 
+
+.. only:: html
+
+    .. image:: images/transaction_changetype.gif
+
+If the altered transaction type is not correct, you can always revert back to the originally synchronized type by selecting the 'Revert back to original type' option in the drop-down. 
+
+.. _transactions_dialog:
 ======================
 Transactions Dialog
 ======================
