@@ -117,7 +117,12 @@ Please following the following steps to generate API keys on the Bybit exchange 
 * API key usage: API transaction
 * Name for API key: unchain.app (or to your liking)
 * API Key Permissions: Read-Only and No IP restriction
-* Types: 'Account Transfer' and 'Exchange History' (only)
+* Types: 'Account Transfer' and 'Trade' (only)
 * Click 'Submit' button and provide 2FA code
 * Copy the shown 'API Key' character string into the 'Key' property field (on unchain.app)
 * Copy the shown 'API Secret' character string into the 'Secret' property field (on unchain.app)
+
+.. note::
+
+   The exchange only communicates history up to 2 years old. Older transactions are currently not available through the API of the exchange.
+
