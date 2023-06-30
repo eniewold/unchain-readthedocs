@@ -36,8 +36,8 @@ Please following the following steps to generate API keys on Binance and paste t
 
 On unchain.app Exchange Connection dialog; make sure the keys are copied correctly and a name is given and save the connection.
 
-Interface Comments
-------------------
+Binance Interface Comments
+--------------------------
 
 * The Binance API does not allow a large number of requests per minute; synchronization will take longer when all trading pairs are synchronized. 
 * Our synchronization component detects if no changes are available and will finish quickly.
@@ -61,8 +61,8 @@ Please following the following steps to generate API keys on the BitMEX exchange
 * Copy the shown 'ID' character string into the 'Key' property field (on unchain.app)
 * Copy the 'Secret' character string into the 'Secret' property field (on unchain.app)
 
-Interface Comments
-------------------
+BitMEX Interface Comments
+-------------------------
 
 * There is a limit of 1000 transactions, contact us if you encounter this maximum!
 * Only transactions denoted with type 'Withdrawal', 'RealisedPNL', 'Deposit' and 'Transfer' are processed.
@@ -95,9 +95,29 @@ On unchain.app Exchange Connection dialog; make sure the keys are copied correct
 
    Don't share the same API keys from Kraken with another application; since that might interfere with synchronization.
 
-Interface Comments
-------------------
+Kraken Interface Comments
+-------------------------
 
 * Some currency assets have legacy symbols (like XBT); unchain.app will automatically translate this into the modern symbols to avoid confusion.
 * Our system will automatically try to link related transactions (such as trades and fees), although this is not always match 100%.
 * Subsequent synchronizations are sped up by saving the last synchronized transaction details. Please allow some additional time for the first (initial) synchronization.
+
+
+======================
+Bybit
+======================
+
+Please following the following steps to generate API keys on the Bybit exchange and paste them into the unchain.app dialog:
+
+* Login to Bybit as usual
+* Make sure you have 2FA enable, without it you can't create an API key
+* Select your user icon in the top corner to show the drop-down menu
+* Select 'API' from the drop-down menu
+* Click the 'Create New Key' button and enter the fields as followed:
+* API key usage: API transaction
+* Name for API key: unchain.app (or to your liking)
+* API Key Permissions: Read-Only and No IP restriction
+* Types: 'Account Transfer' and 'Exchange History' (only)
+* Click 'Submit' button and provide 2FA code
+* Copy the shown 'API Key' character string into the 'Key' property field (on unchain.app)
+* Copy the shown 'API Secret' character string into the 'Secret' property field (on unchain.app)
