@@ -6,8 +6,8 @@ project = 'unchain.app'
 copyright = '2023, Blockchain 071'
 author = 'unchain.app'
 
-release = 'v0.96'
-version = '0.1.3'
+release = 'v0.97'
+version = '0.1.4'
 
 # -- General configuration
 
