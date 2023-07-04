@@ -69,6 +69,53 @@ BitMEX Interface Comments
 * Only transactions with status 'Completed' are processed to avoid processing transactions that might become cancelled.
 
 ======================
+Coinbase
+======================
+
+.. note::
+
+   This paragraph is about the Coinbase web application and mobile application and the 'Advanced Trading' interface of Coinbase. For (partially deprecated) Coinbase Pro (Exchange formerly known as GDAX), please see next paragraph. 
+
+The following steps will allow you to create an API key for communication with unchain.app through the Coinbase web application. 
+
+* Login to Coinbase as usual. (make sure to use the official Coinbase site, not Coinbase Pro)
+* Click on the user icon in the upper right corner to display a dropdown menu
+* Select 'Settings' from the dropdown menu.
+* After the settings page has loaded, select the 'API' tab
+* Use the 'New API Key' button and enter your 2FA code
+* Under the 'Accounts' header in the pop-up dialog, check the 'All wallets' box
+* Under the 'Permissions' header, check the following permissions: 'wallet:accounts:read', 'wallet:deposits:read', 'wallet:trades:read', 'wallet:addresses:read', 'wallet:orders:read', 'wallet:transactions:read', 'wallet:withdrawals:read'
+* Leave 'Notifications' and 'Security Settings' section unchanged
+* Click the 'Create' button to generate keys
+* Copy the shown 'API Key' character string into the 'Key' property field (on unchain.app)
+* Copy the 'API Secret' character string into the 'Secret' property field (on unchain.app)
+
+======================
+Coinbase Pro
+======================
+
+.. note::
+
+   For Coinbase (Web App and Mobile App) please see previous paragraph. This paragraph is about the Coinbase Pro Exchange (also known as GDAX) only. 
+   Since the release of 'Advanced Trading', not all accounts can access the Coinbase Pro interface anymore. You can still generate an API key to synchronize all trades made prior to migration to 'Advanced Trading'.
+
+The following steps will allow you to create an API key for communication with unchain.app through the Coinbase Pro web application. 
+
+* Login to Coinbase Pro as usual. (make sure to use the official Coinbase Pro Exchange site, not the Coinbase App)
+* Click on the user icon in the upper right corner to display a dropdown menu
+* Select 'API' from the dropdown menu.
+* Use the 'New API Key' button and a pop-up dialog will appear
+* Enter a nickname (for example "unchain") in the 'API key nickname' field
+* Make sure the 'View' check-box is checked (only)
+* Copy the shown 'Passphrase' into the 'Phrose' property field (on unchain.app)
+* Leave the 'IP Whitelist' field empty
+* Click the 'Create API Key' button
+* Enter 2FA code when aske
+* Copy the 'API Secret' character string into the 'Secret' property field (on unchain.app)
+* Close the dialog with the secret and find the generated API entry in the overview.
+* Copy the character string above the 'Nickname' into the 'Key' property field (on unchain.app)
+
+======================
 Kraken
 ======================
 
