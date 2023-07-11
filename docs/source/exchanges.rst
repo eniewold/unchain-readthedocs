@@ -32,10 +32,6 @@ Please following the following steps to generate API keys on Binance and paste t
 * Select and copy the 'Secret Key' character string into the 'Secret' property field (on unchain.app)
 * Make sure the 'API restrictions' are 'Enable reading' only for maximum security (default is probably correct)
 
-.. image:: images/connection_exchange_binance_dialog.png
-
-On unchain.app Exchange Connection dialog; make sure the keys are copied correctly and a name is given and save the connection.
-
 Binance Interface Comments
 --------------------------
 
@@ -67,6 +63,82 @@ BitMEX Interface Comments
 * There is a limit of 1000 transactions, contact us if you encounter this maximum!
 * Only transactions denoted with type 'Withdrawal', 'RealisedPNL', 'Deposit' and 'Transfer' are processed.
 * Only transactions with status 'Completed' are processed to avoid processing transactions that might become cancelled.
+
+======================
+Bittrex
+======================
+
+Please following the following steps to generate API keys on the Bittrex exchange and paste them into the unchain.app dialog:
+
+* Login to Bittrex as usual
+* Make sure 2FA is enabled; it is required for API keys
+* Select 'My account' menu option
+* Select 'API Keys' tab under the 'Site Settings' header
+* Click the 'Create new API Key' button, a dialog will be shown
+* Keep 'Read-Only' option selected (no other permissions)
+* Enter your 2FA code and click 'Continue' button
+* Copy the shown 'API Key' character string into the 'Key' property field (on unchain.app)
+* Copy the shown 'Secret Key' character string into the 'Secret' property field (on unchain.app)
+
+======================
+Bitstamp
+======================
+
+Please following the following steps to generate API keys on the Bitstamp exchange and paste them into the unchain.app dialog:
+
+* Login to Bitstamp as usual
+* Make sure 2FA is enabled; it is required for API keys
+* Select the account icon in the top corner to show drop-down menu
+* Select 'Settings' from the drop-down menu
+* Select 'API access' from the tabs under the 'Account settings' header
+* Click the 'New API key' button, a new page will be shown
+* Check the 'Read main account balances and transactions' option only
+* Click the 'Create new API key' button to confirm
+* Enter your 2FA details when requested in pop-up dialog
+* Copy the shown 'Key' character string into the 'Key' property field (on unchain.app)
+* Copy the shown 'Secret' character string into the 'Secret' property field (on unchain.app)
+* Click the 'Activate API key' button to confirm creation through e-mail
+* Check your e-mail and follow instructions to confirm the API creation
+
+======================
+Bitvavo
+======================
+
+Please following the following steps to generate API keys on the Bitvavo exchange and paste them into the unchain.app dialog:
+
+* Login to Bitvavo as usual
+* Select/hover your name in the top corner to show the drop-down menu
+* Select 'API' from the drop-down menu
+* Click the 'New API Key' button and enter the fields as followed:
+* Name for API key: unchain.app (or to your liking)
+* IP-whitelist: leave empty (no white-listing)
+* Permissions: Read-Only (as only selected option)
+* Click 'Submit' button and provide your password and 2FA key
+* Copy the shown 'API Key' character string into the 'Key' property field (on unchain.app)
+* Copy the shown 'API Secret' character string into the 'Secret' property field (on unchain.app)
+
+======================
+Bybit
+======================
+
+Please following the following steps to generate API keys on the Bybit exchange and paste them into the unchain.app dialog:
+
+* Login to Bybit as usual
+* Make sure you have 2FA enabled, without it you can't create an API key
+* Select your user icon in the top corner to show the drop-down menu
+* Select 'API' from the drop-down menu
+* Click the 'Create New Key' button and enter the fields as followed:
+* API key usage: API transaction
+* Name for API key: unchain.app (or to your liking)
+* API Key Permissions: Read-Only and No IP restriction
+* Types: 'Account Transfer' and 'Trade' (only)
+* Click 'Submit' button and provide 2FA code
+* Copy the shown 'API Key' character string into the 'Key' property field (on unchain.app)
+* Copy the shown 'API Secret' character string into the 'Secret' property field (on unchain.app)
+
+.. note::
+
+   The exchange only communicates history up to 2 years old. Older transactions are currently not available through the API of the exchange.
 
 ======================
 Coinbase
@@ -134,10 +206,6 @@ Please following the following steps to generate API keys on the Kraken exchange
 * Copy the shown 'API Key' character string into the 'Key' property field (on unchain.app)
 * Copy the 'Private Key' character string into the 'Secret' property field (on unchain.app)
 
-.. image:: images/connection_exchange_kraken_dialog.png
-
-On unchain.app Exchange Connection dialog; make sure the keys are copied correctly and a name is given and save the connection.
-
 .. note::
 
    Don't share the same API keys from Kraken with another application; since that might interfere with synchronization.
@@ -148,28 +216,4 @@ Kraken Interface Comments
 * Some currency assets have legacy symbols (like XBT); unchain.app will automatically translate this into the modern symbols to avoid confusion.
 * Our system will automatically try to link related transactions (such as trades and fees), although this is not always match 100%.
 * Subsequent synchronizations are sped up by saving the last synchronized transaction details. Please allow some additional time for the first (initial) synchronization.
-
-
-======================
-Bybit
-======================
-
-Please following the following steps to generate API keys on the Bybit exchange and paste them into the unchain.app dialog:
-
-* Login to Bybit as usual
-* Make sure you have 2FA enable, without it you can't create an API key
-* Select your user icon in the top corner to show the drop-down menu
-* Select 'API' from the drop-down menu
-* Click the 'Create New Key' button and enter the fields as followed:
-* API key usage: API transaction
-* Name for API key: unchain.app (or to your liking)
-* API Key Permissions: Read-Only and No IP restriction
-* Types: 'Account Transfer' and 'Trade' (only)
-* Click 'Submit' button and provide 2FA code
-* Copy the shown 'API Key' character string into the 'Key' property field (on unchain.app)
-* Copy the shown 'API Secret' character string into the 'Secret' property field (on unchain.app)
-
-.. note::
-
-   The exchange only communicates history up to 2 years old. Older transactions are currently not available through the API of the exchange.
 
