@@ -162,6 +162,7 @@ Please following the following steps to generate API keys on the Bitget exchange
 .. note::
 
    Since this Exchange API requires a query for each trading pair, synchronization of all transactions might take a couple of minutes.
+   Only 'Spot' wallet transactions (fill orders, deposists and withdrawals) are synchronized. 
 
 ======================
 Coinbase
