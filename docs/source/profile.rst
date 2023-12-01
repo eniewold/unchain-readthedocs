@@ -23,14 +23,14 @@ Under the 'Settings' tab you can find all account related settings.
 * **Landing page** - This page will be opened after your log in.
 * **Force dark mode** - By default the web app will follow the operating system dark/light profile. If you always want dark mode, switch this on.
 * **Change Password** - Allows you to change your password (only if Sign in with Ethereum is not used)
-* **Delete Account** - Allows you to delete your account details (*THIS WILL DELETE ALL YOUR INFORMATION FROM OUR SERVERS*).
+* **Delete Account** - Allows you to delete your account details (*THIS WILL DELETE ALL YOUR INFORMATION FROM OUR SERVERS*) read below for more details.
 * **Sign in with Ethereum** - Allows you to manage sign in with Ethereum. You can use your web3 wallet to sign into. This can be your only sign in method, or you can combine it with password sign in. 
 
 ======================
 Delete Account
 ======================
 
-When the button 'Delete Account' is used, all your details are removed from our servers. Please note that this action can not be undone. The deleted information includes connection details (Exchange API keys), Transaction (as synchronized) and your nickname and password itself.
+When the button 'Delete Account' is used, **all your details are removed from our servers**. Please note that this action can not be undone. The deleted information includes connection details (Exchange API keys), Transaction (as synchronized) and your nickname and password itself.
 
 The function can be found on the 'Profile' page of the web app or on the 'Profile' dialog on the mobile app. 
 
