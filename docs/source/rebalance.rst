@@ -14,6 +14,7 @@ Transaction with type 'rebalance' can be deleted; although a fresh rebalance tra
 
 When the re-balance function is used the first time a synchronization is done, the timestamp of the 'rebalance' will be near the first transaction that was synchronized. Otherwise the timestamp of the transaction will be set near the last synchronization transaction.
 
+---------------------
 Why?
 ---------------------
 

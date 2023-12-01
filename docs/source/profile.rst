@@ -27,6 +27,19 @@ Under the 'Settings' tab you can find all account related settings.
 * **Sign in with Ethereum** - Allows you to manage sign in with Ethereum. You can use your web3 wallet to sign into. This can be your only sign in method, or you can combine it with password sign in. 
 
 ======================
+Delete Account
+======================
+
+When the button 'Delete Account' is used, all your details are removed from our servers. Please note that this action can not be undone. The deleted information includes connection details (Exchange API keys), Transaction (as synchronized) and your nickname and password itself.
+
+The function can be found on the 'Profile' page of the web app or on the 'Profile' dialog on the mobile app. 
+
+.. only:: html
+
+    .. image:: images/mobile_profile_account.jpg
+
+
+======================
 Price Conversion
 ======================
 
