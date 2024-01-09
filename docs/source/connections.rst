@@ -9,20 +9,15 @@ Manage Connections
 ======================
 
 You can manage connections through the 'Connections' page, available through the side menu. The page will show all previously created connections in a table.
-The table shows per connection a number of details, like: Name, Description, Status and last update timestamps. By selecting a row of the table, the connection properties can be altered. 
+The table shows per connection a number of details, like: Name, Description, Status and last update timestamps. By selecting a row of the table, the connection properties can be altered, and you will have access to additional actions that can be executed for that connection.
 
-The following function are available when selecting the drop-down menu on a row:
+The page includes a button to add a new New Connection. A list of all supported connection sources will be displayed (both Exchanges and Blockchain wallets). To actually create a new connection, choose the wanted source and fill the requested properties in the dialog. Depending on the type of source, different properties can be entered. 
 
-* **Pause/Unpause** - Quickly toggle the 'Paused' property
-* **Jump Queue** - This will move the connection to the front of the queue, ignoring the previously scheduled time. The synchronization will start as soon as possible.
-* **Resync** - This will delete all transactions and re-recreate them by doing a full synchronization. This will also **delete user added** data from the related transactions.
+==============================
+Exchange Connection Properties
+==============================
 
-======================
-Exchange Connection
-======================
-
-The properties of an exchange connection are used by the system to retrieve transaction details. Exchanges offer an API (Application Programmers Interface) that can be used to retrieve information.
-Most exchanges require a number of private details to shared with our application before the synchronization can start. Our system will automatically enable/disable the required fields.
+The properties of an exchange connection are used by the system to retrieve transaction details. Exchanges offer an API (Application Programmers Interface) that can be used to retrieve information. Most exchanges require a number of private details to shared with our application before the synchronization can start. Our system will automatically enable/disable the required fields.
 
 .. note::
    Some properties are considered sensitive data; these are only shown when the connection is created and are hidden when the connection properties are altered.
@@ -37,14 +32,18 @@ The following properties are available for an Exchange Connection:
 * **Ignored** - The connection will be ignored by the system (no synchronization and invisible in portfolio)
 * **Paused** - The synchronization will not start when scheduled. All transaction data is available normally.
 
-======================
-Wallet Connection
-======================
+Check the :doc:`exchanges` documentation for more details per supported exchange.
+
+============================
+Wallet Connection Properties
+============================
 
 A wallet connection is used to retrieve details from a certain blockchain. Each wallet connection has a number of properties that are used by the system to synchronize transactions. 
 
-.. image:: images/wallet_connection_dialog.png
-
+.. only:: html
+   .. image:: images/wallet_connection_dialog.png
+      :width: 300
+   
 The following properties are available for an Exchange Connection:
 
 * **Blockchain** - The actual blockchain where the wallet address references to (selectable when new connection is created)
@@ -56,6 +55,8 @@ The following properties are available for an Exchange Connection:
 .. note::
    The address format is checked for a number of blockchains, but you should always make sure you use the correct address to avoid confusing synchronization results.
 
+Check the :doc:`blockchains` documentation for more details per supported exchange.
+
 .. _connections_manual:
 ========================
 Manual Ledger Connection
@@ -65,9 +66,10 @@ A manual ledger connection allows you to manually add new transactions (effectiv
 
 For manual transactions and mirrored transactions, you will need to have at least one manual ledger connection added. 
 
-======================
-Status Model
-======================
+.. _connections_status_model:
+=======================
+Connection Status Model
+=======================
 
 There are a number of different states a connection can be in. The following items explain the possible states:
 

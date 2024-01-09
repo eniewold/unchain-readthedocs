@@ -13,7 +13,8 @@ Calendar Heat-map
 
 The top part of the page contains a calendar view of a complete year (the year as selected). Each cell represents a day and is colored based on the number of Transactions on that day in contrast to other days of the year. Relative high amounts of Transactions are colored from yellow to red. Days without Transactions are white.
 
-.. image:: images/transactions_heatmap.png
+.. only:: html
+   .. image:: images/transactions_heatmap.png
 
 You can click on any day of the calendar to move the table view to that particular day. The table page and scroll position are changed, this might not be 100% accurate. 
 
@@ -51,7 +52,8 @@ Filters
 
 The displayed transactions in the table can be filtered using the following controls, displayed above the table:
 
-.. image:: images/transactions_filters.png
+.. only:: html
+   .. image:: images/transactions_filters.png
 
 * **Filter** - Free text to search for.
 * **Year** - Only show transactions with timestamp in selected year.
@@ -92,7 +94,6 @@ There are a number of different transaction types, usage is documented below:
 You can alter the transaction type of any transaction using the :ref:`transactions_dialog`. Use the 'Change Type' drop-down button to alter the type. Only types with the same direction (incoming or outgoing) can be selected. 
 
 .. only:: html
-
     .. image:: images/transaction_changetype.gif
 
 If the altered transaction type is not correct, you can always revert back to the originally synchronized type by selecting the 'Revert back to original type' option in the drop-down. 

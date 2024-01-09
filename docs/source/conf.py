@@ -3,10 +3,10 @@
 # -- Project information
 
 project = 'unchain.app'
-copyright = '2023, Blockchain 071'
+copyright = '2022, 2023, 2024 - Blockchain 071'
 author = 'unchain.app'
 
-release = 'v0.97'
+release = 'v1.03.1'
 version = '0.1.4'
 
 # -- General configuration
