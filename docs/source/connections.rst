@@ -78,6 +78,7 @@ There are a number of different states a connection can be in. The following ite
 * **Untested** - New or changed connection. The system will automatically validate the entered details with the Exchange. Once tested, synchronization will continue.
 * **Paused** - Paused (perhaps due to error); uncheck to make available for synchronization.
 * **Inactive** - There was no activity detected within the subscriptions 'Inactivity Period', connection is also Paused. Unpause to restart synchronization.
+* **Suspended** - The referenced blockchain or exchange is no longer operational. This status is automatically applied by the system. Synchronization is no longer available. Already synchronized transaction are kept available.
 * **Ignored** - Connection is ignored by the system.
 
 It is possible two states are active at the same time; for example 'paused' and 'error'.
