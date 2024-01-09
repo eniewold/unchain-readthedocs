@@ -53,7 +53,7 @@ The following properties are available for an Exchange Connection:
 * **Paused** - The synchronization will not start when scheduled. All transaction data is available normally.
 
 ---------------------------
-Wallet Connection Addresses
+Manage Wallet Addresses
 ---------------------------
 
 You can add addresses to monitor and synchronize by using the available buttons. 
@@ -96,19 +96,15 @@ There are a number of different states a connection can be in. The following ite
 It is possible two states are active at the same time; for example 'paused' and 'error'.
 
 ======================
-Re-balancing
-======================
-
-Re-balancing is activated for a number of different Exchanges and Blockchains. Most of the times this is done due to the fact that the offered API does not offer a complete set of transactions.
-
-The re-balance functionality will calculate any differences per Asset between Exchange/Wallet and unchain.app totals and create transactions with delta value per asset to counter the difference. The transaction type is set to 're-balance' to differentiate these transactions. Note that these transactions can be deleted, since they don't represent an actual transaction on the Exchange or Blockchain.
-
-The re-balance function is activated automatically and is executed after a Exchange or Wallet synchronization. 
-
-======================
 Jump Queue
 ======================
 
-Synchronization of a connection is scheduled automatically. The frequency of synchronization is based on the active subscription. But all users can use the 'Jump Queue' function to synchronize the selected connection as soon as possible.
+Synchronization of a connection is scheduled automatically. The frequency of synchronization is based on the active subscription. But all users can use the 'Save & Jump Queue' function to synchronize the selected connection as soon as possible.
+
+.. only:: html
+
+   .. image:: images/wallet_connection_jumpqueue.png
 
 When this function is initiated by a user, the maximum number of times this function can be used is decreased. Check :doc:`subscriptions` for more details. There are system events that also trigger this function, those will note be counted towards the maximum usage. 
+
+You can find this function in the connection properties dialog and by pressing the drop-down arrow next to the 'Save' button.
