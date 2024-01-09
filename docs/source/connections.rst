@@ -41,22 +41,31 @@ Wallet Connection Properties
 A wallet connection is used to retrieve details from a certain blockchain. Each wallet connection has a number of properties that are used by the system to synchronize transactions. 
 
 .. only:: html
-   
+
    .. image:: images/wallet_connection_dialog.png
-      :width: 300
+      :width: 400
    
 The following properties are available for an Exchange Connection:
 
 * **Blockchain** - The actual blockchain where the wallet address references to (selectable when new connection is created)
 * **Name** - Name you wish to give this connection
-* **Address** - Address (single or multiple) that are used by the wallet on the selected blockchain.
 * **Active** - The connection will be made unavailable by the system (no synchronization and invisible in portfolio)
 * **Paused** - The synchronization will not start when scheduled. All transaction data is available normally.
+
+---------------------------
+Wallet Connection Addresses
+---------------------------
+
+You can add addresses to monitor and synchronize by using the available buttons. 
+
+* **Add Address** button: Add a single address manually (we recommend using copy/paste)
+* **from Ledger USB** button (for blockchains that are supported by the Ledger USB hardware key): The dialog will allow you to retrieve a number of different addresses using your connected USB hardware key.
+* **from Web3 Wallet** (for supported blockchains): When you have an active Web3 Wallet extension in your browser, this will allow you to retrieve the active account addresses from that wallet. 
 
 .. note::
    The address format is checked for a number of blockchains, but you should always make sure you use the correct address to avoid confusing synchronization results.
 
-Check the :doc:`blockchains` documentation for more details per supported exchange.
+Check the :doc:`blockchains` documentation for more details per supported blockchain.
 
 .. _connections_manual:
 ========================

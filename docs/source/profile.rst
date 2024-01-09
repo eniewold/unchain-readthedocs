@@ -35,6 +35,7 @@ When the button 'Delete Account' is used, **all your details are removed from ou
 The function can be found on the 'Profile' page of the web app or on the 'Profile' dialog on the mobile app. 
 
 .. only:: html
+    
     .. image:: images/mobile_profile_account.jpg
 
 ======================

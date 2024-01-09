@@ -7,6 +7,7 @@ The 'Back in Time' function is available through the filter icon in the lower ri
 Once opened, use the date field to select a specific date or use the year drop-down to select the start of a year. When selected, all data shown is limited as it was the selected date. Effectively, you see all transactions and prices at the selected point in time. 
 
 .. only:: html
+    
     .. image:: images/backintime.gif
         :width: 300
 
