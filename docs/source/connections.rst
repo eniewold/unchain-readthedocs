@@ -41,6 +41,7 @@ Wallet Connection Properties
 A wallet connection is used to retrieve details from a certain blockchain. Each wallet connection has a number of properties that are used by the system to synchronize transactions. 
 
 .. only:: html
+   
    .. image:: images/wallet_connection_dialog.png
       :width: 300
    
