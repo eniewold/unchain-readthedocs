@@ -6,8 +6,7 @@ This page explains the sign in procedure. Please refer to :doc:`register` if you
 
 The sign in page is located at <https://unchain.app/Login>.
 
-Our Terms and Conditions can be found at <https://unchain.app/terms.html>
-
+Our Terms and Conditions can be found at <https://unchain.app/terms/>
 Our Privacy Policy is available at <https://unchain.app/privacy/>
 
 =======================
