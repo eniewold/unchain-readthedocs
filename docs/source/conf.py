@@ -28,7 +28,7 @@ intersphinx_disabled_domains = ['std']
 templates_path = ['_templates']
 
 # -- Options for HTML output
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_book_theme'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
