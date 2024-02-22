@@ -212,6 +212,12 @@ The following steps will allow you to create an API key for communication with u
 * Copy the character string above the 'Nickname' into the 'Key' property field (on unchain.app)
 
 ======================
+Coinmerce Lite
+======================
+
+UNDER CONSTRUCTION
+
+======================
 Crypto.com App
 ======================
 

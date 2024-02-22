@@ -4,23 +4,23 @@ Sign in
 
 This page explains the sign in procedure. Please refer to :doc:`register` if you want to create a new account.
 
-The sign in page is located at <https://unchain.app/Login>.
+The sign in page is located at <https://my.unchain.app/Login>.
 
 Our Terms and Conditions can be found at <https://unchain.app/terms/> and our Privacy Policy is available at <https://unchain.app/privacy/>
 
+Our web application and mobile application share the same login screen, although some features are not available on the mobile app. You can find the sign in methods that are supported below. 
+
 =======================
-Web Application Sign in
+Sign in with Password
 =======================
 
-Please note that sign in page is only available on the web application using PC or laptop. Mobile app sign in requires an access code that can be generated on the web application.
-
-Simply enter the username (nickname) you've used during registration together with the correct password to gain access to your portfolio data. 
+The web application and mobile application share this procedure. Simply enter the username (nickname) you've used during registration together with the correct password to gain access to your portfolio data.
 
 .. note::
-   Since we don't register any personal details, there is **no password recovery** available!
+   If you have registered an account recovery email address during registration, then you can use the password reset link to start the account recovery procedure. You can use this for username recovery and password reset. 
 
 ======================
-Sign in With Ethereum
+Sign in with Ethereum
 ======================
 
 Use the 'Sign in With Ethereum' button to use your personal wallet provider as proof of identity. You will sign in using the selected account (address) from your favorite Ethereum wallet. 
@@ -36,10 +36,10 @@ The following Chrome extension wallets are supported:
    When using Sign in with Ethereum; you don't need to enter your username.
 
 ======================
-Mobile App Login
+Mobile App Sign in
 ======================
 
-To access the mobile application, you will need to generate a mobile access code first. Please follow these steps:
+You are also able to sign in on the mobile app using your password, but the 'Sign in with Ethereum' is not available on mobile. You can also sign to the mobile app in using a one-time access code, as generated below:
 
 * Login on the web application using desktop browser,
 * Navigate to the 'Profile' page using the side menu,
@@ -47,7 +47,7 @@ To access the mobile application, you will need to generate a mobile access code
 * Click on the 'New Mobile Session Code' button shown,
 * Use the code shown to sign in on mobile.
 
-When the mobile application is opened, the generated access code is requested. Enter the code in the sign in screen to access your account. 
+On the mobile app sign in screen, select the 'Code' tab to use the generated code to sign in.
 
 .. note::
    The shown code is only valid for a limited amount of time.
