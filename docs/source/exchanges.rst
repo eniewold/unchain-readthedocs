@@ -4,76 +4,10 @@ Exchanges
 
 The table below contains all exchanges that are available for connection. If instructions are available, the second column contains the link to the instruction details. The last column is a short status description.
 
-.. csv-table::
+.. csv-table:: Exchanges
+   :file: exchanges.csv
    :header: "Name", "Page", "Status"
    :widths: 20, 20, 20
-    "BigONE",":doc:`bigone`",""
-   "Binance",":doc:`binance`","Documented"
-   "BIT.TEAM",":doc:`bitteam`",""
-   "Bitbns",":doc:`bitbns`",""
-   "Bitfinex",":doc:`bitfinex`",""
-   "Bitget",":doc:`bitget`","Documented"
-   "BitMart",":doc:`bitmart`",""
-   "BitMEX",":doc:`bitmex`","Documented"
-   "BitoPro",":doc:`bitopro`",""
-   "Bitstamp",":doc:`bitstamp`","Documented"
-   "Bittrex Global",":doc:`bittrex`","Documented"
-   "Bitvavo",":doc:`bitvavo`","Documented"
-   "Blockchain Exchange",":doc:`blockchain`",""
-   "BTC-Alpha",":doc:`btcalpha`",""
-   "BTCMarkets",":doc:`btcmarkets`",""
-   "Bybit",":doc:`bybit`","Documented"
-   "Coinbase",":doc:`coinbase`","Documented"
-   "Coinbase Pro (GDAX)",":doc:`coinbasepro`","Documented"
-   "Coincheck",":doc:`coincheck`",""
-   "CoinEx",":doc:`coinex`",""
-   "CoinList",":doc:`coinlist`",""
-   "Coinmate",":doc:`coinmate`",""
-   "Coinmerce Lite",":doc:`coinmerce`",""
-   "Coins.ph",":doc:`coinsph`",""
-   "Crypto.com App",":doc:`cdca2`","Documented"
-   "Crypto.com Exchange",":doc:`cdce`",""
-   "Currency.com",":doc:`currency`",""
-   "Deribit",":doc:`deribit`",""
-   "DigiFinex",":doc:`digifinex`",""
-   "Exmo",":doc:`exmo`",""
-   "FTX",":doc:`ftx`",""
-   "Gate.io",":doc:`gatio`",""
-   "Gemini",":doc:`gemini`",""
-   "HitBTC",":doc:`hitbtc`",""
-   "HollaEx Pro",":doc:`hollaex`",""
-   "HTX",":doc:`htx`",""
-   "IDEX",":doc:`idex`",""
-   "Kraken",":doc:`kraken`","Documented"
-   "Kucoin",":doc:`kucoin`",""
-   "Kuna",":doc:`kuna`",""
-   "Lykke",":doc:`lykke`",""
-   "MEXC Global",":doc:`mexc`",""
-   "Midas Investments",":doc:`midas`",""
-   "NDAX",":doc:`ndax`",""
-   "NEXO App",":doc:`nexo`","Documented"
-   "NEXO Pro",":doc:`nexopro`",""
-   "NovaDAX",":doc:`novadax`",""
-   "OKX",":doc:`okx`",""
-   "Phemex",":doc:`phemex`",""
-   "Poloniex",":doc:`poloniex`",""
-   "ProBit",":doc:`probit`",""
-   "TimeX",":doc:`timex`",""
-   "Tokocrypto",":doc:`tokocrypto`",""
-   "WOO X",":doc:`woox`",""
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .. note::
 
