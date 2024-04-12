@@ -7,26 +7,42 @@ Not all Exchanges support background transaction synchronization. For a number o
 Once such a file has been created, the file can be uploaded using the 'Uploads' page. After the page is opened, you can see all previously imported files.
 
 ======================
-Upload new file
+Step 1. Export file
 ======================
 
-To upload a new file; use the 'Upload File(s)' button above the table. This will display the 'Upload File(s)' dialog. 
+Before you can upload and import a file you will need to export a file containing transaction data from an exchange or wallet. 
+Please refer to the appropiate documentation for the available exchanges. 
+
+.. csv-table::
+   :file: uploads.csv
+   :header: "Name", "Link", "Comments"
+   :widths: 20, 20, 20
+
+======================
+Step 2. Upload file
+======================
 
 .. note::
 
-    Before uploading, make sure to create a Exchange Connection for the exchange first, see :doc:`connections`.
+    Before uploading, make sure have already have created a Exchange Connection, see :doc:`connections`.
 
-First select the Exchange Connection you want to import files for. This can be done using the drop-down interface. Only supported exchanges are listed here.
+First select the Exchange Connection you want to import files for. The available exchange connections are displayed as cards with some details listed.
 
-Some exchanges will need additional properties; these will appear under the selected exchange connection. Follow the instructions when displayed. For example; the Midas file import needs to have an asset selected. 
+Some exchanges will need additional properties; these will appear under the selected exchange connection. Follow the instructions when displayed.
 
-Last, select the file(s) you want to import. Make sure they belong to the exchange that was selected first. 
+Last, select the file(s) you want to import by using the 'Browse' button. Make sure they match the exchange it was exported from.
+
+===========================
+Step 3. File processing
+===========================
 
 After upload, the file is queued for processing and you will be notified through alerts when the import is done. 
 
-======================
+If errors occur during processing you will received details through :doc:`notifications`.
+
+----------------------
 Status Model
-======================
+----------------------
 
 There are a number of different states an uploaded file can be in. The following items explain the possible states:
 
@@ -37,9 +53,9 @@ There are a number of different states an uploaded file can be in. The following
 * **Done** - File was imported and transactions processed accordingly.
 * **Ignored** - The Exchange Connection is set to 'Ignored', thus import will not continue.
 
-======================
+----------------------
 Delete Uploads
-======================
+----------------------
 
 You can delete uploaded files when they are not being processed. Use the trash-can icon on the far side of each row in the table to delete individual uploaded files.
 
