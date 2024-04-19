@@ -31,3 +31,24 @@ Comments
 * The Binance API does not allow a large number of requests per minute; synchronization will take longer when all trading pairs are synchronized. 
 * Our synchronization component detects if no changes are available and will finish quickly.
 * :doc:`rebalance` is active and executed at the end of the synchronization cycle to ensure correct asset balances.
+
+
+==========================
+CSV File Import
+==========================
+
+For those Binance customers that no longer have access to the full user interface to create an API key due to local regulations and restrictions; you are able to export transactions through the limited interface of Binance after login.
+
+* Login to Binance as usual (If you are restricted, you are redirected to a dialog with limited options)
+* Hover over the export icon (next to the search box)
+* Select 'Export Transaction Records' from the drop-down menu
+* Select 'Customized' from the 'Time' drop-down
+* Select a period (date range) to export
+* Click Export button to queue the export
+* Repeat the last steps for each year of data that needs to be exported
+* Wait until you received an e-mail that download(s) is ready
+* Then download the files by using the 'Download' link in last column of the submissions table
+* Unpack the downloaded zip files first, before uploading them into unchain.app
+
+.. note::
+   We have noticed that the exported CSV files do not conver all types of transactions. This means that the results might have some currencies with negative values.
