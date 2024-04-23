@@ -49,3 +49,9 @@ This documentation can be used to guide you through the functionality of the app
    selections
    realtime
    rebalance
+
+======================
+System Status
+======================
+
+The operational status of the services and servers is reported through our status page on <https://unchainapp.statuspage.io/>. After a problem has been identified, it will be reported on the status page when it the downtime falls without a couple of minutes. 

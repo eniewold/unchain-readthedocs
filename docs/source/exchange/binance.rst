@@ -2,7 +2,7 @@
 Binance
 ######################
 
-This page contain instruction on how to connect the unchain.app to the Binance exchange to retrieve transactions.
+You can synchronize transaction from the Binance exchange automatically through the API or using CSV file(s). This page describes steps for both methods.
 
 .. note::
    Binance does not support a complete set of transaction synchronization, but we've managed to support as much as possible on several different available API's that are offered by Binance. 
@@ -31,6 +31,7 @@ Comments
 * The Binance API does not allow a large number of requests per minute; synchronization will take longer when all trading pairs are synchronized. 
 * Our synchronization component detects if no changes are available and will finish quickly.
 * :doc:`rebalance` is active and executed at the end of the synchronization cycle to ensure correct asset balances.
+* Do not combine the automatic synchronization through API with CSV file import; use one or the other. 
 
 
 ==========================
@@ -38,6 +39,9 @@ CSV File Import
 ==========================
 
 For those Binance customers that no longer have access to the full user interface to create an API key due to local regulations and restrictions; you are able to export transactions through the limited interface of Binance after login.
+
+.. note::
+   When creating a new connection in unchain.app, and only CSV file import will be used; enter a dummy value for 'Key' and 'Secret'; these will are not needed for file upload only.
 
 * Login to Binance as usual (If you are restricted, you are redirected to a dialog with limited options)
 * Hover over the export icon (next to the search box)
